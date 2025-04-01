@@ -1,0 +1,6 @@
+[submodule "external/CAVeTalk"]
+	path = external/CAVeTalk
+	url = git@github.com:CAVEMaN-SeniorDesign/CAVeTalk.git
+[submodule "tools/uncrustify/uncrustify"]
+	path = tools/uncrustify/uncrustify
+	url = git@github.com:uncrustify/uncrustify.git
