@@ -1,0 +1,10 @@
+services:
+  ubuntu-build-tools:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./../../:/RoverControl/
+    working_dir: /RoverControl
+    network_mode: "host"
+    privileged: true
